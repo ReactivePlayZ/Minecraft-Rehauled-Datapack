@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "ONO",
+        "AEA"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_cluster"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "N": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "Ender Armor"
+}

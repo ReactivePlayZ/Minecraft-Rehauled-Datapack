@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "#n#",
+        "F/F"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_sword"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

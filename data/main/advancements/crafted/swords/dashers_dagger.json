@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "main:dashers_dagger"
+            }
+        }
+    },
+    "rewards": {
+        "function": "main:recipes/dashers_dagger"
+    }
+}
