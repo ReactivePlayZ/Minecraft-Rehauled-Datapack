@@ -11,7 +11,7 @@ execute as @a[scores= {leave=1..}] run scoreboard players reset @s
 # Join message ↑↑↑
 
 # Instant Health ↓↓↓
-execute as @a unless entity @s[nbt= {Inventory: [{Slot: 103b, id: "minecraft:leather_helmet", tag: {enderHelmet: 1b}}, {Slot: 102b, id: "minecraft:leather_chestplate", tag: {enderChestplate: 1b}}, {Slot: 101b, id: "minecraft:leather_leggings", tag: {enderLeggings: 1b}}, {Slot: 100b, id: "minecraft:leather_boots", tag: {enderBoots: 1b}}]}] unless entity @s[nbt= {Inventory: [{Slot: 103b, id: "minecraft:leather_helmet", tag: {wardenHelmet: 1b}}, {Slot: 102b, id: "minecraft:leather_chestplate", tag: {wardenChestplate: 1b}}, {Slot: 101b, id: "minecraft:leather_leggings", tag: {wardenLeggings: 1b}}, {Slot: 100b, id: "minecraft:leather_boots", tag: {wardenBoots: 1b}}]}] run effect clear @s health_boost
+execute as @a unless entity @s[nbt= {Inventory: [{Slot: 103b, id: "minecraft:leather_helmet", tag: {enderHelmet: 1b}}, {Slot: 102b, id: "minecraft:leather_chestplate", tag: {enderChestplate: 1b}}, {Slot: 101b, id: "minecraft:leather_leggings", tag: {enderLeggings: 1b}}, {Slot: 100b, id: "minecraft:leather_boots", tag: {enderBoots: 1b}}]}] unless entity @s[nbt= {Inventory: [{Slot: 103b, id: "minecraft:knowledge_book", tag: {wardenHelmet: 1b}}, {Slot: 102b, id: "minecraft:leather_chestplate", tag: {wardenChestplate: 1b}}, {Slot: 101b, id: "minecraft:leather_leggings", tag: {wardenLeggings: 1b}}, {Slot: 100b, id: "minecraft:leather_boots", tag: {wardenBoots: 1b}}]}] run effect clear @s health_boost
 # Instant Health ↑↑↑
 
 # Katana ↓↓↓
