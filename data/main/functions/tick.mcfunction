@@ -81,7 +81,7 @@ execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if bloc
 # Advanced Crafting Table ↑↑↑
 
 # Kill all Knowledge books ↓↓↓
-execute as @e[type= item, nbt={Item: {id: "minecraft:knowledge_book"}}] run kill @s
+execute as @e[type= item, nbt={Item: {id: "minecraft:knowledge_book"}}] unless entity @s[nbt= {Item: {id: "minecraft:knowledge_book", Count: 1b, tag: {wardenHelmet: 1b}}}] run kill @s
 # Kill all Knowledge books ↑↑↑
 
 # Item Book ↓↓↓
