@@ -1,0 +1,4 @@
+{
+    "function": "minecraft:set_nbt",
+    "tag": "{id: \"minecraft:carved_pumpkin\"}"
+}
