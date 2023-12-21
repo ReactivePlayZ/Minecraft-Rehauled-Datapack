@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "mcrehauled:advanced_crafting_table"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mcrehauled:recipes/advanced_crafting_table"
+    }
+}
