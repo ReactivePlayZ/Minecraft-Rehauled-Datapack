@@ -34,6 +34,8 @@ execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if enti
 execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if entity @e[type=player, distance= ..10] if block ~ ~1 ~ air run kill @s
 
 execute as @e[type= hopper_minecart] at @s if entity @e[type= minecraft:glow_item_frame, tag=AdvancedTable2, distance=..1] run data merge entity @s {Enabled: 0b}
+
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~1 ~ barrel[open= true] unless block ~ ~1 ~ minecraft:barrel{Items: [{Slot: 26b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run item replace block ~ ~1 ~ container.26 with minecraft:gray_stained_glass_pane{CustomModelData: 381, guiItem:1b, display: {Name: '[{"text": ""}]'}}
 # Advanced Crafting Table ↑↑↑
 
 # Item Book ↓↓↓
