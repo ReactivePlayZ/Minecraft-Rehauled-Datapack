@@ -1,5 +1,6 @@
 # GUI Item ↓↓↓
-execute as @a run clear @s minecraft:gray_stained_glass_pane{guiItem: 1b}
+execute as @a run clear @s #mcrehauled:all{guiItem: 1b}
+execute as @e[type= item, nbt= {Item: {tag: {guiItem: 1b}}}] run kill @s
 # GUI Item ↑↑↑
 
 # Join message ↓↓↓
