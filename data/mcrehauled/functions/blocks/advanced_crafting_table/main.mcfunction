@@ -1,0 +1,28 @@
+#! // This function file is running 8 ticks per second instead of 20
+#! (This file is running 8 times a second instead of the default 20). //
+
+# Advanced Crafting Table ↓↓↓
+#! Test:
+# Placement and GUI Items:
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 0b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 0}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 1b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 1}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 2b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 2}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 6b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 6}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 7b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 7}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 8b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 8}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 9b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 9}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 10b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 10}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 11b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 11}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 15b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 15}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 16b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 16}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 17b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 17}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 18b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 18}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 19b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 19}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 20b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 20}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 24b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 24}
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~ ~ barrel[open= true] unless block ~ ~ ~ minecraft:barrel{Items: [{Slot: 25b, id: "minecraft:gray_stained_glass_pane", Count: 1b, tag: {guiItem:1b}}]} run function mcrehauled:blocks/advanced_crafting_table/main {x: 25}
+
+execute as @e[type= minecraft:glow_item_frame, tag=AdvancedTable2] at @s if block ~ ~-1 ~ hopper run data merge block ~ ~-1 ~ {TransferCooldown: 100}
+
+schedule function mcrehauled:blocks/advanced_crafting_table/main 8t
+# Advanced Crafting Table ↑↑↑
